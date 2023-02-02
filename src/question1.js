@@ -2,7 +2,7 @@
 import readlineSync from 'readline-sync';
 
 function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
+  return Math.floor(Math.random() * max) + 1;
 }
 const isnumberEven = (userName) => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
