@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import usernameQuestion from '../src/cli.js';
 import calc from '../src/question2.js';
 
