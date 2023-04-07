@@ -35,7 +35,7 @@ const progression = (userName) => {
       break;
     }
     const { answer, arr } = getProgression();
-    const userAnswer = readlineSync.question(`Question: ${arr.join(',')}\n`);
+    const userAnswer = readlineSync.question(`Question: ${arr.join(' ')}\n`);
     if (String(userAnswer) === String(answer)) {
       console.log('Correct!');
       i += 1;
