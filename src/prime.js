@@ -30,7 +30,7 @@ const prime = (userName) => {
       i += 1;
     } else {
       const oppositAnswer = userAnswer === 'yes' ? 'no' : 'yes';
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${oppositAnswer}. . Let's try again ${userName}.`);
+      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${oppositAnswer}. Let's try again ${userName}.`);
       break;
     }
   }

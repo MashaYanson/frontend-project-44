@@ -9,7 +9,7 @@ const isnumberEven = (userName) => {
   let i = 0;
   while (i <= 3) {
     if (i === 3) {
-      console.log(`Congratulations ${userName}!`);
+      console.log(`Congratulations, ${userName}!`);
       break;
     }
     const number = getRandomInt(100);
