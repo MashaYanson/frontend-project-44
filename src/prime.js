@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
 
-import { getRandomInt } from './question2.js';
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}
 
 const isPrime = (number) => {
   for (let i = 2; i < number; i += 1) {
@@ -19,7 +21,7 @@ const prime = (userName) => {
       console.log(`Congratulations, ${userName}!`);
       break;
     }
-    const number = getRandomInt(20);
+    const number = getRandomArbitrary(20, 2);
     const answer = isPrime(number);
     const userAnswer = readlineSync.question(`Question: ${number}\n`);
     if (userAnswer === 'yes' && answer === true) {
