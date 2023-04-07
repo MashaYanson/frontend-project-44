@@ -21,7 +21,7 @@ const prime = (userName) => {
       console.log(`Congratulations, ${userName}!`);
       break;
     }
-    const number = getRandomArbitrary(20, 2);
+    const number = Math.round(getRandomArbitrary(20, 2));
     const answer = isPrime(number);
     const userAnswer = readlineSync.question(`Question: ${number}\n`);
     if (userAnswer === 'yes' && answer === true) {
