@@ -13,7 +13,7 @@ const isnumberEven = (userName) => {
       break;
     }
     const number = getRandomInt(100);
-    const answerIsEven = readlineSync.question(`Question:${number} \n`);
+    const answerIsEven = readlineSync.question(`Question: ${number} \n`);
     if (answerIsEven === 'yes' && number % 2 === 0) {
       console.log('Correct!');
       i += 1;
