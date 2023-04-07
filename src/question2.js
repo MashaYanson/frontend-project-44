@@ -31,7 +31,7 @@ const calc = (userName) => {
     const number2 = getRandomInt(20);
     const operationNumber = getRandomInt(2);
     const resultOfCalculation = calculate(number1, number2, operations[operationNumber]);
-    const answerCalc = readlineSync.question(`Question:${number1} ${operations[operationNumber]} ${number2} \n`);
+    const answerCalc = readlineSync.question(`Question: ${number1} ${operations[operationNumber]} ${number2} \n`);
     if (String(answerCalc) === String(resultOfCalculation)) {
       console.log('Correct!');
       i += 1;
