@@ -30,7 +30,7 @@ const gcd = (userName) => {
       console.log('Correct!');
       i += 1;
     } else {
-      console.log(`${answer} is wrong answer ;(. Correct answer was ${resultOfGcd}. Let's try again, ${userName}`);
+      console.log(`${answer} is wrong answer ;(. Correct answer was ${resultOfGcd}. Let's try again, ${userName}!`);
       break;
     }
   }

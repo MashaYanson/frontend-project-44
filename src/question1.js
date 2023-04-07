@@ -22,7 +22,7 @@ const isnumberEven = (userName) => {
       i += 1;
     } else {
       const oppositAnswer = answerIsEven === 'yes' ? 'no' : 'yes';
-      console.log(`${answerIsEven} is wrong answer ;(. Correct answer was ${oppositAnswer}. Let's try again, ${userName}`);
+      console.log(`${answerIsEven} is wrong answer ;(. Correct answer was ${oppositAnswer}. Let's try again, ${userName}!`);
       break;
     }
   }

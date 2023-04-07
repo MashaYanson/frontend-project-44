@@ -36,7 +36,7 @@ const calc = (userName) => {
       console.log('Correct!');
       i += 1;
     } else {
-      console.log(`${answerCalc} is wrong answer ;(. Correct answer was ${resultOfCalculation}. Let's try again, ${userName}`);
+      console.log(`${answerCalc} is wrong answer ;(. Correct answer was ${resultOfCalculation}. Let's try again, ${userName}!`);
       break;
     }
   }
