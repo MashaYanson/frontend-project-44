@@ -9,7 +9,7 @@ function getRandomArbitrary(min, max) {
 const getProgression = () => {
   const startNumber = getRandomInt(10);
   const stepNumber = getRandomInt(5);
-  const arrayLength = getRandomArbitrary(9, 4);
+  const arrayLength = getRandomArbitrary(9, 5);
   const emptyIndex = getRandomInt(arrayLength - 1);
   const arr = [];
   let i = 0;
