@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
-import usernameQuestion from '../src/cli.js';
-import isnumberEven from '../src/question1.js';
+import isNumberEven from '../src/oddEven.js';
+import runGame from '../src/index.js';
 
-console.log('Welcome to the Brain Games!');
-const userName = usernameQuestion();
-isnumberEven(userName);
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
+runGame(description, isNumberEven);
