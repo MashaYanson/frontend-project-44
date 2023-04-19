@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import usernameQuestion from '../src/cli.js';
-import calc from '../src/question2.js';
 
-console.log('Welcome to the Brain Games!');
-const userName = usernameQuestion();
-calc(userName);
+import runGame from '../src/utils/runGame.js';
+import calc from '../src/games/calc.js';
+
+const description = 'What is the result of the expression?';
+runGame(description, calc);

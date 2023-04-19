@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import usernameQuestion from '../src/cli.js';
-import progression from '../src/progression.js';
+import runGame from '../src/utils/runGame.js';
+import progression from '../src/games/progression.js';
 
-console.log('Welcome to the Brain Games!');
-const userName = usernameQuestion();
-progression(userName);
+const description = 'What number is missing in the progression?';
+
+runGame(description, progression);

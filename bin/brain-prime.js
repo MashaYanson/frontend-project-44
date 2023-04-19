@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import usernameQuestion from '../src/cli.js';
-import prime from '../src/prime.js';
 
-console.log('Welcome to the Brain Games!');
-const userName = usernameQuestion();
-prime(userName);
+import runGame from '../src/utils/runGame.js';
+import prime from '../src/games/prime.js';
+
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+runGame(description, prime);

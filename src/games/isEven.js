@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import getRandomInt from './utils/getRandomInt.js';
+import getRandomInt from '../utils/getRandomInt.js';
 
 const isNumberEven = () => {
   const number = getRandomInt(100);

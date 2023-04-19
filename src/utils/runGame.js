@@ -1,13 +1,9 @@
 import readlineSync from 'readline-sync';
 import usernameQuestion from './cli.js';
-
-const ROUND_COUNT = 3;
-
-const makeQuiz = (game) => Array(ROUND_COUNT).fill(null).map(() => game());
+import makeQuiz from './makeQuiz.js';
 
 const runGame = (description, game) => {
   console.log('Welcome to the Brain Games!');
-
   const userName = usernameQuestion();
   console.log(description);
   const quiz = makeQuiz(game);
