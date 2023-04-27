@@ -1,4 +1,4 @@
-import getRandomArbitrary from './getRandomArbitrary';
+import getRandomArbitrary from './getRandomArbitrary.js';
 
 const getProgression = () => {
   const startNumber = getRandomArbitrary(1, 10);

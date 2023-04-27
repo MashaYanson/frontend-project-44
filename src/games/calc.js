@@ -1,5 +1,5 @@
-import getRandomArbitrary from '../utils/getRandomArbitrary';
-import calculate from '../utils/calculate';
+import getRandomArbitrary from '../utils/getRandomArbitrary.js';
+import calculate from '../utils/calculate.js';
 
 const calc = () => {
   const operations = ['+', '-', '*'];

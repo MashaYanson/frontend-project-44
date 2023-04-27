@@ -1,5 +1,5 @@
-import getRandomArbitrary from '../utils/getRandomArbitrary';
-import getGcd from '../utils/getGcd';
+import getRandomArbitrary from '../utils/getRandomArbitrary.js';
+import getGcd from '../utils/getGcd.js';
 
 const gcd = () => {
   const number1 = getRandomArbitrary(1, 20);

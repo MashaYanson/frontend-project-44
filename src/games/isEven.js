@@ -1,4 +1,4 @@
-import getRandomArbitrary from '../utils/getRandomArbitrary';
+import getRandomArbitrary from '../utils/getRandomArbitrary.js';
 
 const isNumberEven = () => {
   const number = getRandomArbitrary(1, 100);
