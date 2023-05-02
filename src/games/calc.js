@@ -1,5 +1,17 @@
 import getRandomArbitrary from '../utils/getRandomArbitrary.js';
-import calculate from '../utils/calculate.js';
+
+function calculate(number1, number2, operation) {
+  if (operation === '+') {
+    return number1 + number2;
+  }
+  if (operation === '-') {
+    return number1 - number2;
+  }
+  if (operation === '*') {
+    return number1 * number2;
+  }
+  return 0;
+}
 
 const calc = () => {
   const operations = ['+', '-', '*'];

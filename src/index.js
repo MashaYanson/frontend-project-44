@@ -10,7 +10,7 @@ const runGame = (description, game) => {
   for (let i = 0; i < QUIZ_LENGTH; i += 1) {
     const { question, answer } = game();
     const userAnswer = readlineSync.question(question);
-    if (String(userAnswer) === String(answer)) {
+    if (userAnswer === String(answer)) {
       console.log('Correct!');
     } else {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${answer}. Let's try again, ${userName}!`);
